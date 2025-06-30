@@ -1,0 +1,41 @@
+Como o Git Surgiu?
+O Git foi criado em 2005 por ninguém menos que Linus Torvalds, o mesmo criador do sistema operacional Linux.
+A história por trás da sua criação está diretamente ligada ao desenvolvimento do kernel do Linux. Antes do Git, a comunidade de desenvolvedores do kernel usava um sistema de controle de versão proprietário chamado BitKeeper. No entanto, em 2005, a empresa que o desenvolvia decidiu revogar a licença gratuita que a comunidade Linux usava.
+Isso deixou a comunidade de desenvolvedores do kernel do Linux sem uma ferramenta para gerenciar o código. Como o projeto era enorme, com milhares de desenvolvedores contribuindo simultaneamente, eles precisavam de uma solução robusta, rápida e eficiente.
+
+Linus Torvalds, em apenas algumas semanas, decidiu criar uma nova ferramenta do zero para resolver esse problema. Ele tinha alguns objetivos claros em mente:
+
+•	Velocidade: Precisava ser extremamente rápido para lidar com o grande volume de código do kernel.
+
+•	Design simples: O núcleo da ferramenta deveria ser simples e direto.
+
+•	Suporte a desenvolvimento não-linear: Precisava ser capaz de gerenciar milhares de branches (ramificações) paralelas com facilidade.
+
+•	Completamente distribuído: Ao contrário de sistemas centralizados (como o SVN), cada desenvolvedor deveria ter uma cópia completa do histórico do projeto.
+
+•	Eficiência para projetos grandes: Tinha que ser eficiente com projetos do tamanho do kernel do Linux.
+
+A ferramenta que surgiu para atender a todas essas necessidades foi o Git. O nome "Git", segundo o próprio Linus, é uma gíria britânica que pode ser traduzida como "cabeça dura" ou "idiota", uma piada que ele usou para batizar o projeto.
+
+Qual é o Propósito do Git?
+O propósito principal do Git é ser um Sistema de Controle de Versão Distribuído (DVCS).
+De forma simples, ele serve para controlar e monitorar todas as versões de um projeto, registrando cada alteração feita no código. Isso é incrivelmente útil para:
+
+•	Colaboração em equipe: Vários desenvolvedores podem trabalhar no mesmo projeto simultaneamente sem interferir no trabalho uns dos outros.
+
+•	Histórico de alterações: É possível ver quem fez o quê, quando e por quê. Você pode voltar no tempo para qualquer versão anterior do projeto, o que é ótimo para desfazer erros ou revisar o código.
+
+•	Gerenciamento de branches: O Git permite criar ramificações independentes (branches) para desenvolver novas funcionalidades, corrigir bugs ou fazer experimentos. Isso isola o novo trabalho da versão principal do projeto, evitando que bugs em desenvolvimento quebrem o código em produção.
+
+•	Segurança e integridade: O Git usa um algoritmo de hash criptográfico (SHA-1) para garantir a integridade dos dados, protegendo o código e o histórico de alterações contra modificações acidentais ou maliciosas.
+
+Por que o Git é Tão Popular?
+O Git se tornou o padrão da indústria por vários motivos:
+
+•	Modelo Distribuído: A principal vantagem do Git é ser distribuído. Cada desenvolvedor tem uma cópia local completa do repositório, incluindo todo o histórico. Isso significa que você pode trabalhar offline e só precisa se conectar à internet para compartilhar suas alterações.
+
+•	Velocidade: O Git é incrivelmente rápido, especialmente em operações como "commit" e "branch", porque ele opera em uma cópia local do repositório.
+
+•	Branches e Merges (Fusões) Eficientes: O sistema de branches do Git é leve e flexível, permitindo fluxos de trabalho não-lineares e facilitando a experimentação. A fusão de branches é uma operação central e muito poderosa.
+
+•	Ecossistema: A popularidade do Git deu origem a plataformas como o GitHub, GitLab e Bitbucket, que adicionam funcionalidades de colaboração, como revisão de código, rastreamento de problemas e integração contínua (CI/CD), tornando a experiência de desenvolvimento ainda mais completa.
